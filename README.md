@@ -107,7 +107,7 @@ cut c1; // The cut operation will outhook the given carrier.
 from knit_script.interpret_knit_script import knit_script_to_knitout
 
 # Convert to knitout
-knit_graph, machine = knit_script_to_knitout( pattern="rib.ks", out_file_name="rib.k", pattern_is_filename=True)
+knit_graph, machine = knit_script_to_knitout( pattern="stockinette.ks", out_file_name="stockinette.k", pattern_is_filename=True)
 ```
 
 ### Patterns with Arguments from Python
